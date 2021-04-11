@@ -43,6 +43,25 @@ public class ChatBehaviour : NetworkBehaviour
         inputField.text = string.Empty;
     }
 
+    public void SendServer()
+    {
+        StartCoroutine(Countdown());
+    }
+
+    IEnumerator Countdown()
+    {
+        CmdSendMessage("Starting in 5");
+        yield return new WaitForSeconds(1);
+        CmdSendMessage("Starting in 4");
+        yield return new WaitForSeconds(1);
+        CmdSendMessage("Starting in 3");
+        yield return new WaitForSeconds(1);
+        CmdSendMessage("Starting in 2");
+        yield return new WaitForSeconds(1);
+        CmdSendMessage("Starting in 1");
+        yield return new WaitForSeconds(1);
+    }
+
     [Command]
     private void CmdSendMessage(string message)
     {

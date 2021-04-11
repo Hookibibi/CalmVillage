@@ -40,7 +40,6 @@ public class PlayerAttackController : NetworkBehaviour
             }
             else
             {
-                Debug.Log("No");
             }
         }
 

@@ -7,7 +7,8 @@ public class PlayerMovementController : NetworkBehaviour
 {
     [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private CharacterController controller = null;
-    [SerializeField] private float jumpForce = 2.5f;
+    [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private float gravity = 14f;
     private Dictionary<string, KeyCode> keybindings = new Dictionary<string, KeyCode>();
     private float verticalVelocity;
 
@@ -37,25 +38,22 @@ public class PlayerMovementController : NetworkBehaviour
     private void Update()
     {
         Move();
-        //Jump();
     }
 
     [Client]
-    private void Jump()
-    {
-        if (Input.GetKeyDown(keybindings["Jump"]) && controller.isGrounded)
-        {
-            verticalVelocity = Mathf.Sqrt(jumpForce * -2.0f * Physics.gravity.y);
-        }
-        else if (controller.isGrounded)
-            verticalVelocity = 0f;
-        else
-            verticalVelocity += Physics.gravity.y * Time.deltaTime;
-    }
-        
-    [Client]
     private void Move()
     {
+
+
+        if (controller.isGrounded && verticalVelocity < 0)
+            verticalVelocity = 0f;
+
+        if (Input.GetKey(keybindings["Jump"]) && controller.isGrounded)
+            verticalVelocity = jumpForce;
+        verticalVelocity += -gravity * Time.deltaTime;
+
+        Vector3 jumpVector = new Vector3(0, verticalVelocity - controller.skinWidth, 0);
+        controller.Move(jumpVector * Time.deltaTime);
         currentInput.x = currentInput.y = 0;
         if (Input.GetKey(keybindings["Up"]))
         {

@@ -31,7 +31,6 @@ ScriptsOnlyBuild:
     - Mirror.NetworkIdentity
     - kcp2k.KcpTransport
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
@@ -100,99 +99,99 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11824}
+      Script: {instanceID: 11822}
     - Class: 114
-      Script: {instanceID: 12124}
+      Script: {instanceID: 11852}
     - Class: 114
-      Script: {instanceID: 12130}
+      Script: {instanceID: 11956}
+    - Class: 114
+      Script: {instanceID: 12002}
     - Class: 114
       Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12188}
+      Script: {instanceID: 12158}
     - Class: 114
-      Script: {instanceID: 12216}
+      Script: {instanceID: 12164}
     - Class: 114
-      Script: {instanceID: 12228}
+      Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12390}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12532}
+      Script: {instanceID: 12224}
     - Class: 114
-      Script: {instanceID: 12676}
+      Script: {instanceID: 12252}
     - Class: 114
-      Script: {instanceID: 12774}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 12428}
     - Class: 114
-      Script: {instanceID: 12914}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 12944}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 13050}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 13058}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 13236}
+      Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13356}
+      Script: {instanceID: 12984}
     - Class: 114
-      Script: {instanceID: 13464}
+      Script: {instanceID: 13090}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13098}
     - Class: 114
-      Script: {instanceID: 13644}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13898}
+      Script: {instanceID: 13278}
     - Class: 114
-      Script: {instanceID: 13990}
+      Script: {instanceID: 13398}
     - Class: 114
-      Script: {instanceID: 14032}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 14052}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 14394}
+      Script: {instanceID: 13586}
     - Class: 114
-      Script: {instanceID: 14414}
+      Script: {instanceID: 13942}
     - Class: 114
-      Script: {instanceID: 14494}
+      Script: {instanceID: 14034}
     - Class: 114
-      Script: {instanceID: 14576}
+      Script: {instanceID: 14078}
     - Class: 114
-      Script: {instanceID: 14774}
+      Script: {instanceID: 14098}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 14194}
     - Class: 114
-      Script: {instanceID: 15050}
+      Script: {instanceID: 14444}
     - Class: 114
-      Script: {instanceID: 15074}
+      Script: {instanceID: 14464}
     - Class: 114
-      Script: {instanceID: 15088}
+      Script: {instanceID: 14544}
     - Class: 114
-      Script: {instanceID: 15104}
+      Script: {instanceID: 14626}
+    - Class: 114
+      Script: {instanceID: 14824}
+    - Class: 114
+      Script: {instanceID: 14848}
+    - Class: 114
+      Script: {instanceID: 14878}
+    - Class: 114
+      Script: {instanceID: 15102}
+    - Class: 114
+      Script: {instanceID: 15126}
     - Class: 114
       Script: {instanceID: 15140}
     - Class: 114
-      Script: {instanceID: 15166}
+      Script: {instanceID: 15156}
     - Class: 114
-      Script: {instanceID: 15246}
+      Script: {instanceID: 15192}
     - Class: 114
-      Script: {instanceID: 15798}
+      Script: {instanceID: 15218}
     - Class: 114
-      Script: {instanceID: 72394}
+      Script: {instanceID: 15298}
     - Class: 114
-      Script: {instanceID: 84972}
-    - Class: 114
-      Script: {instanceID: 91586}
-    - Class: 114
-      Script: {instanceID: 91666}
-    - Class: 114
-      Script: {instanceID: 95578}
-    - Class: 114
-      Script: {instanceID: 208090}
-    - Class: 114
-      Script: {instanceID: 208096}
-    - Class: 114
-      Script: {instanceID: 271994}
+      Script: {instanceID: 15300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -245,15 +244,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 14576}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 14652}
+      Script: {instanceID: 14626}
     - Class: 114
-      Script: {instanceID: 15104}
+      Script: {instanceID: 14702}
     - Class: 114
-      Script: {instanceID: 208090}
+      Script: {instanceID: 15156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -261,6 +260,12 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f087c23fbfa15475a0d110af46fb0496
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 667add9e2cad9b4b389bb1f9f9c8fca0
@@ -303,6 +308,18 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: Mirror
     className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 4092bae59a8aa5f3b6d53050fc615922
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 5e5bd19571b52e426c21f5dd18c01fe0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthDisplay
   - hash:
       serializedVersion: 2
       Hash: a2113831d3323f931007e1b3812dc814
@@ -365,6 +382,12 @@ ScriptsOnlyBuild:
     className: NetworkManager
   - hash:
       serializedVersion: 2
+      Hash: b547bad41dcfd98eb8a512f3b60a4086
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Healable
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Mirror.dll
     namespaceName: Mirror
@@ -405,6 +428,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 380ddbbf75cc03be59f0520ff8452c87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Damageable
   - hash:
       serializedVersion: 2
       Hash: 32fce7b97c39bff4b4f6c0f53f7e6bf1
@@ -471,6 +500,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ForceLeaveGame
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -659,7 +694,7 @@ ScriptsOnlyBuild:
     className: SimpleWebTransport
   - hash:
       serializedVersion: 2
-      Hash: 889813402656fdae9f924c8f299af7d6
+      Hash: 767c0b504299351dfa4e06be45ac85e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NetworkRoomPlayerLobby
@@ -729,6 +764,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 514775331e04882828052c5022b7ab5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Health
   - hash:
       serializedVersion: 2
       Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
@@ -833,6 +874,12 @@ ScriptsOnlyBuild:
     className: CinemachinePath
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PickUp
+  - hash:
+      serializedVersion: 2
       Hash: 6b7b6cc820a8c29008d5b97bfa2b9652
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -861,12 +908,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.HID.Editor
     className: HIDDescriptorWindow
-  - hash:
-      serializedVersion: 2
-      Hash: f087c23fbfa15475a0d110af46fb0496
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -1043,6 +1084,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: 1e3d6222ff533d213aab144eb854a53b
     assemblyName: Cinemachine.dll
     namespaceName: 
@@ -1065,6 +1112,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 46a952fdcac0bc0052a107460f3060a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerAttackController
   - hash:
       serializedVersion: 2
       Hash: 9e12720e9f1df1639263519e77f2c4d7
@@ -1227,6 +1280,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: e0e086c4b3d831a8a515719e348193a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovementController
   - hash:
       serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
@@ -1403,76 +1462,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 9c1493f9c630da52130633fb513a4637
-    assemblyName: Mirror.dll
-    namespaceName: kcp2k
-    className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 4092bae59a8aa5f3b6d53050fc615922
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerCameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 8676be567a7c7e8592bade252ffe06a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMovementController
-  - hash:
-      serializedVersion: 2
-      Hash: 514775331e04882828052c5022b7ab5d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Health
-  - hash:
-      serializedVersion: 2
-      Hash: 380ddbbf75cc03be59f0520ff8452c87
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Damageable
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 5e5bd19571b52e426c21f5dd18c01fe0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HealthDisplay
-  - hash:
-      serializedVersion: 2
-      Hash: 46a952fdcac0bc0052a107460f3060a7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerAttackController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PickUp
-  - hash:
-      serializedVersion: 2
-      Hash: b547bad41dcfd98eb8a512f3b60a4086
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Healable
-  - hash:
-      serializedVersion: 2
       Hash: d6fb2fa514c9a7c374003edec5360687
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChatBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ForceLeaveGame
+      Hash: 9c1493f9c630da52130633fb513a4637
+    assemblyName: Mirror.dll
+    namespaceName: kcp2k
+    className: KcpTransport
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

@@ -12,6 +12,7 @@ public class NetworkRoomPlayerLobby : NetworkBehaviour
     [SerializeField] private Text[] playerReadyTexts = new Text[8];
     [SerializeField] private Button startGameButton = null;
     [SerializeField] private Button disconnectButton = null;
+    public ChatBehaviour chat;
 
     [SyncVar(hook = nameof(HandleDisplayNameChanged))]
     public string DisplayName = "Chargement...";
@@ -19,6 +20,8 @@ public class NetworkRoomPlayerLobby : NetworkBehaviour
     public bool IsReady = false;
 
     private bool isLeader;
+
+    private bool starting = false;
 
     public bool IsLeader
     {
@@ -119,8 +122,15 @@ public class NetworkRoomPlayerLobby : NetworkBehaviour
     [Command]
     public void CmdStartGame()
     {
-        if (Room.RoomPlayers[0].connectionToClient != connectionToClient) { return; }
+        if (Room.RoomPlayers[0].connectionToClient != connectionToClient || starting) { return; }
+        GetComponent<ChatBehaviour>().SendServer();
+        StartCoroutine(ChatCoroutine());
+        starting = true;
+    }
 
+    IEnumerator ChatCoroutine()
+    {
+        yield return new WaitForSeconds(5);
         Room.StartGame();
     }
 
